@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.programandoando.hamp.dbandroid.MainActivity">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:hint="Ingrese su nombre"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/et_uni"
+        android:layout_below="@id/et_nombre"
+        android:hint="Ingrese su universidad"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/et_userid"
+        android:layout_below="@id/et_uni"
+        android:hint="Ingrese su codigo"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/et_ciudad"
+        android:layout_below="@id/et_userid"
+        android:hint="Ingrese su ciudad"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/et_numero"
+        android:layout_below="@id/et_ciudad"
+        android:hint="Ingrese su numero"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/btn_sig"
+        android:layout_below="@id/et_numero"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:text="Siguiente"
+        />
+
+</RelativeLayout>
