@@ -57,3 +57,13 @@ Henry Mendoza Puerta
     activity_login.
 
     Implementacion de metodos onClickRetiro y onClickDeposito
+
+6.- (s4javadepositoretiro)
+
+    DepositoActivity
+    =================
+    Implementacion de metodos onClickAceptar y onCLickRetornar
+
+    RetiroActivity
+    ==============
+    Implementacion de metodos onClickIngresar y onCLickRetornar
