@@ -6,11 +6,14 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguientes
 - Consultar de movimientos de una cuenta.
 
 
-1.- Clonar el respositorio : git clone ..
+1.- Clonar el respositorio :
+  =============================
+   git clone ..
 
 2.- (s4procdetreti)
-  Crear los procedimientos almacenados
-  de deposito y retiro
+    ============================
+    Crear los procedimientos almacenados
+    de deposito y retiro
 
 3.- (s4upaodaophp)
     
@@ -21,7 +24,8 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguientes
     -retiro
 
 4.- (s4servicephp)
-  Implementacion de metodos login, deposito y retiro.
+    =====================
+    Implementacion de metodos login, deposito y retiro.
 
 5.- (s4disenoactivity)
 
