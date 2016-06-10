@@ -6,12 +6,14 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguientes
 - Consultar de movimientos de una cuenta.
 
 
-1.- Clonar el respositorio :
-  =============================
-   git clone ..
+1.- Clonar el respositorio 
+
+    =======================
+    git clone ..
 
 2.- (s4procdetreti)
-    ============================
+    
+    =======================
     Crear los procedimientos almacenados
     de deposito y retiro
 
