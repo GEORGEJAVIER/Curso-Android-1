@@ -1,5 +1,5 @@
 # Curso-Android
-Aplicacion AppUPAO, este proyecto te permite realizar lo siguientes
+Aplicacion AppUPAO, este proyecto te permite realizar lo siguiente:
 
 - Consulta de datos de clientes
 - Realizar depositos y retiros
