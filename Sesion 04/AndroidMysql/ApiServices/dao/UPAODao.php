@@ -51,6 +51,68 @@ order by m.dtt_movifecha desc ";
     }
 }
 
+//// Metodo Login 
+
+
+    public function iniciarSesion($usuario,$clave) {
+        $rec = null;
+        try {
+            
+            $query = "select e.chr_emplcodigo, 
+            concat_ws(' ',e.vch_emplpaterno,e.vch_emplmaterno,e.vch_emplnombre) as nombre
+            from empleado e
+            where e.vch_emplusuario=?
+            and e.vch_emplclave=?";
+            $stm = $this->pdo->prepare($query);
+            $stm->bindParam(1, $usuario);
+            $stm->bindParam(2, $clave);
+            $stm->execute();
+            $rec = $stm->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $e) {
+            throw $e;
+        }
+        return $rec;
+    }
+    
+
+//// Metodo Deposito
+public function registrarDeposito($cuenta,$importe,$empleado) {
+        $estado = 'hola';
+        try {
+            $stm = $this->pdo->prepare("call usp_deposito(?,?,?)");
+            $stm->bindParam(1, $cuenta);
+            $stm->bindParam(2, $importe);
+            $stm->bindParam(3, $empleado);
+            // llamar al procedimiento almacenado
+            $stm->execute();
+            $estado = $stm->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $e) {
+            throw $e;
+        }
+        return $estado;
+    }
+    
+////Metodo Retiro
+public function registrarRetiro($cuenta,$importe,$clave,$empleado) {
+        $estado = 'hola';
+        try {
+            $stm = $this->pdo->prepare("call usp_retiro(?,?,?,?)");
+            $stm->bindParam(1, $cuenta);
+            $stm->bindParam(2, $importe);
+            $stm->bindParam(3, $clave);
+            $stm->bindParam(4, $empleado);
+            // llamar al procedimiento almacenado
+            $stm->execute();
+            $estado = $stm->fetch(PDO::FETCH_ASSOC);
+        } catch (Exception $e) {
+            throw $e;
+        }
+        return $estado;
+    }
+    
+}
+
+
 
 
 ?>

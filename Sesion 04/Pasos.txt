@@ -3,3 +3,9 @@ Henry Mendoza Puerta
 1.- (s4procdetreti)
   Crear los procedimientos almacenados
   de deposito y retiro
+
+2.- (s4upaodaophp)
+  Implementacion de metodos de UPAODao.php
+  -login
+  -deposito
+  -retiro
