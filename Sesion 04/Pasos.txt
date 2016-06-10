@@ -67,3 +67,12 @@ Henry Mendoza Puerta
     RetiroActivity
     ==============
     Implementacion de metodos onClickIngresar y onCLickRetornar
+
+7.- (s4javamovimientos)
+
+    MovimientosActivity
+    ===================
+    Agregar TAG_CLIENTE y TAG_SALDO
+    tvcliente.setText("Cliente: " + e.getString(TAG_CLIENTE));
+    tvcuenta.setText("Cuenta: " + etCuenta.getText());
+    tvsaldo.setText("Saldo: "+e.getString(TAG_SALDO));

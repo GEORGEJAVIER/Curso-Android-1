@@ -22,6 +22,9 @@ public class MovimientosActivity extends AppCompatActivity
     private static final String TAG_TYPE = "vch_tipodescripcion";
     private static final String TAG_AMOUNT = "dec_moviimporte";
 
+    private static final String TAG_CLIENTE = "nombres";
+    private static final String TAG_SALDO = "dec_cuensaldo";
+
 
 
     @Override
@@ -38,7 +41,9 @@ public class MovimientosActivity extends AppCompatActivity
         TextView tvResultado = (TextView) findViewById(R.id.movimientos_tv_resultado);
         ListView lvDatos = (ListView) findViewById(R.id.movimientos_lv_lista);
 
-
+        TextView tvcliente = (TextView)findViewById(R.id.tvCliente);
+        TextView tvcuenta = (TextView)findViewById(R.id.tvCuenta);
+        TextView tvsaldo = (TextView)findViewById(R.id.tvSaldo);
 
         try{
             //Dato
@@ -69,7 +74,9 @@ public class MovimientosActivity extends AppCompatActivity
                 map.put(TAG_TYPE, e.getString(TAG_TYPE));
                 map.put(TAG_AMOUNT,e.getString(TAG_AMOUNT));
 
-
+                tvcliente.setText("Cliente: " + e.getString(TAG_CLIENTE));
+                tvcuenta.setText("Cuenta: " + etCuenta.getText());
+                tvsaldo.setText("Saldo: "+e.getString(TAG_SALDO));
 
                 movimientos.add(map);
             }
