@@ -14,6 +14,10 @@ import java.io.IOException;
 
 public class Util {
 
+    public static String codigo_empleado="";
+    public static String nombre_empleado="";
+
+
     private Util()
     {
     }
