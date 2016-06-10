@@ -14,17 +14,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Condicion para iniciar con LoginActivity
+        //Condicion para iniciar con LoginActivity((s4login))
         TextView tvnombreusuario = (TextView) findViewById(R.id.tvUsuario);
         if(Util.nombre_empleado.toString().equalsIgnoreCase("")){
 
             Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
             startActivity(intent);
             this.finish();
-           // tvnombreusuario.setText("Usuario: "+Util.nombre_empleado);
         }
 
-
+        tvnombreusuario.setText("Usuario: "+Util.nombre_empleado);
 
 
         //Si se trata de Android Version 3 o superior
