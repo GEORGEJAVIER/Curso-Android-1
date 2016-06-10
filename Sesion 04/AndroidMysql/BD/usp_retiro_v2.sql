@@ -72,6 +72,7 @@ BEGIN
 
 END
 /*
+prueba
 
 call usp_retiro('00100001',500, '123456', '0001');
 

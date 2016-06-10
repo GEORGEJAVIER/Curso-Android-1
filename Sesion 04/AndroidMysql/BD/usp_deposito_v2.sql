@@ -56,6 +56,7 @@ BEGIN
 END
 
 /*
+prueba
 
 call usp_deposito('00100002',503,'0001');
 
