@@ -22,6 +22,22 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="REALIZAR DEPOSITO"
+            android:id="@+id/btnDeposito"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickDeposito" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REALIZAR RETIRO"
+            android:id="@+id/btnRetirar"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickRetiro" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="consultar clientes"
             android:id="@+id/main_btn_clientes"
             android:layout_alignParentLeft="true"
