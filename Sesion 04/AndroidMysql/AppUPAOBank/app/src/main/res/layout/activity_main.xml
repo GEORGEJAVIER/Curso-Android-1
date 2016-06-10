@@ -19,6 +19,21 @@
         android:layout_marginTop="38dp">
 
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REALIZAR DEPOSITO"
+            android:id="@+id/btnDeposito"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickDeposito" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REALIZAR RETIRO"
+            android:id="@+id/btnRetirar"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onClickRetiro" />
 
         <Button
             android:layout_width="match_parent"
@@ -52,6 +67,17 @@
             android:onClick="onClickSalir" />
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:id="@+id/tvUsuario" />
+    </LinearLayout>
 
 </RelativeLayout>

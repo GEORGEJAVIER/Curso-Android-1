@@ -13,4 +13,30 @@ Henry Mendoza Puerta
 3.- (s4servicephp)
   Implementacion de metodos login, deposito y retiro.
 
+4.- (s4disenoactivity)
+
+    Login
+    ======
+    Java :LoginActivity
+    Layout: activity_login
+
+    Main
+    ====
+    Layout: Agregar botones deposito y retiro
+            Agregar TextView 
+
+
+    Deposito
+    ========
+    Java :DepositoActivity
+    Layout: activity_deposito
+
+    Retiro
+    ========
+    Java :RetiroActivity
+    Layout: activity_retiro
+
+    Movimiento
+    ==========
+    Layout: Agregar TextView cliente, cuenta y saldo
 
