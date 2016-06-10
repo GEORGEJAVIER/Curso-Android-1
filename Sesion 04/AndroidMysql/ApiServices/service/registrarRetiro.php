@@ -3,20 +3,21 @@
 require_once '../dao/UPAODao.php';
 
 // Parámetros
-$usuario = $_REQUEST["usuario"];
+$cuenta = $_REQUEST["cuenta"];
+$importe= $_REQUEST["importe"];
 $clave = $_REQUEST["clave"];
-//$codigo='00003';
+$empleado=$_REQUEST["empleado"];
 
 // Proceso
 $dao = new UPAODao();
-$rec = $dao->iniciarSesion($usuario,$clave);
+$rec = $dao->registrarRetiro($cuenta,$importe,$clave,$empleado);
+
 if ($rec) {
     $rec["estado"] = 1; // Existe
 } else {
     $rec["estado"] = 0; // No existe
 }
 $data = json_encode($rec);
-
 // Retorno
 echo $data;
 ?>
