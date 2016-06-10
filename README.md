@@ -5,8 +5,7 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguientes
 - Realizar depositos y retiros
 - Consultar de movimientos de una cuenta.
 
-Pasos
-=====
+
 1.- Clonar el respositorio : git clone ..
 
 2.- (s4procdetreti)
@@ -14,10 +13,12 @@ Pasos
   de deposito y retiro
 
 3.- (s4upaodaophp)
-  Implementacion de metodos de UPAODao.php
-  -login
-  -deposito
-  -retiro
+    
+    =======================
+    Implementacion de metodos de UPAODao.php
+    -login
+    -deposito
+    -retiro
 
 4.- (s4servicephp)
   Implementacion de metodos login, deposito y retiro.
