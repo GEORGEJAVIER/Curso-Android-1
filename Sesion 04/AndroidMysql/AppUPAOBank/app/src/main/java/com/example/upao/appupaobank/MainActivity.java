@@ -14,6 +14,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Condicion para iniciar con LoginActivity((s4login))
+        TextView tvnombreusuario = (TextView) findViewById(R.id.tvUsuario);
+        if(Util.nombre_empleado.toString().equalsIgnoreCase("")){
+
+            Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+            startActivity(intent);
+            this.finish();
+        }
+
+        tvnombreusuario.setText("Usuario: "+Util.nombre_empleado);
+
 
         //Si se trata de Android Version 3 o superior
         //StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -42,10 +53,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickSalir(View view)
     {
-
+        Util.nombre_empleado="";
+        Util.codigo_empleado="";
         this.finish();
     }
 
+    public void onClickRetiro(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),RetiroActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
 
+    public void onClickDeposito(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),DepositoActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
 
 }

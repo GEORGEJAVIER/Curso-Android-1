@@ -14,6 +14,9 @@ import java.io.IOException;
 
 public class Util {
 
+    //(s4login)
+    public static String codigo_empleado="";
+    public static String nombre_empleado="";
 
 
     private Util()

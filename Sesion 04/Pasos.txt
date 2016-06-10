@@ -40,3 +40,20 @@ Henry Mendoza Puerta
     ==========
     Layout: Agregar TextView cliente, cuenta y saldo
 
+5.- (s4javaactivitys)
+
+    Util
+    =====
+    Agregar variables static de nombre_empleado y codigo_empleado
+    el cual sera usaso en los demas activitys
+
+    LoginActivity
+    ==============
+    Implementacion del metodo onClickIngresar
+
+    MainActivity
+    ============
+    Agregar el codigo para que el activity inicie sea 
+    activity_login.
+
+    Implementacion de metodos onClickRetiro y onClickDeposito
