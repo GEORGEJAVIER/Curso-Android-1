@@ -22,7 +22,8 @@ public class Util {
     public static String execJsonGetRequest(String url) throws ClientProtocolException, IOException
     {
         HttpClient httpclient = new DefaultHttpClient();
-        HttpGet httpGet = new HttpGet("http://172.16.30.194:8086/ApiServices/service/"+url);
+        //HttpGet httpGet = new HttpGet("http://172.16.30.194:8086/ApiServices/service/"+url);
+        HttpGet httpGet = new HttpGet("http://192.168.1.36:8086/ApiServices/service/"+url);
         httpGet.setHeader("content-type","application/json");
         HttpResponse response = httpclient.execute(httpGet);
         String jsonResult = EntityUtils.toString(response.getEntity());
