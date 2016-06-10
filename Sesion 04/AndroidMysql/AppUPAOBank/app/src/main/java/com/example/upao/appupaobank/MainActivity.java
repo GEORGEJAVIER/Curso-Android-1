@@ -58,5 +58,18 @@ public class MainActivity extends AppCompatActivity {
         this.finish();
     }
 
+    public void onClickRetiro(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),RetiroActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
+
+    public void onClickDeposito(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(),DepositoActivity.class);
+        startActivity(intent);
+        this.finish();
+    }
 
 }
