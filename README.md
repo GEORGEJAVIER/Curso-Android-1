@@ -1,13 +1,9 @@
-# Curso-Android
-Aplicacion AppUPAO, este proyecto te permite realizar lo siguiente:
+# AppUPAOBANK
+Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
 
 - Consulta de datos de clientes
 - Realizar depositos y retiros
 - Consultar de movimientos de una cuenta.
-
-# Desafio 
-- Implementar registrar cliente.
-- Implementar registrar sucursal 
 
 1.- Clonar el respositorio 
 
@@ -97,4 +93,6 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguiente:
     tvcuenta.setText("Cuenta: " + etCuenta.getText());
     tvsaldo.setText("Saldo: "+e.getString(TAG_SALDO));
 
-
+# Desafio 
+- Implementar registrar cliente.
+- Implementar registrar sucursal 
