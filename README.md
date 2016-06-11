@@ -9,7 +9,7 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguiente:
 1.- Clonar el respositorio 
 
     =======================
-    git clone ..
+    git clone https://github.com/gitHAMP/Curso-Android.git
 
 2.- (s4procdetreti)
     
