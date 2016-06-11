@@ -5,6 +5,9 @@ Aplicacion AppUPAO, este proyecto te permite realizar lo siguiente:
 - Realizar depositos y retiros
 - Consultar de movimientos de una cuenta.
 
+# Desafio 
+- Implementar registrar cliente.
+- Implementar registrar sucursal 
 
 1.- Clonar el respositorio 
 
