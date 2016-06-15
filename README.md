@@ -93,6 +93,47 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
     tvcuenta.setText("Cuenta: " + etCuenta.getText());
     tvsaldo.setText("Saldo: "+e.getString(TAG_SALDO));
 
-# Desafio 
+9.- Desafio APPUPAOBANK
 - Implementar registrar cliente.
 - Implementar registrar sucursal 
+
+
+# AppTvShow
+Esta aplicacion utilizar retrofit para consumir un API Rest el cual esta hecho en NODEJS
+
+- Registro de TvShows
+- Lista de TvShows
+
+1.- (master)
+
+ ===================
+  - Clonar el repositorio https://github.com/gitHAMP/Curso-Android.git
+  - Crear Fragment RegistroTvshow, ListarTvshows
+  - Crear los layout activity_registro_tvshow,fragment-item_grid y fragment_item_list
+
+2.- (s5models)
+ ===================
+  - Creando modelo Tvshow.java
+
+3.- (s5InterfaceAPIService)
+    ===================
+  - Colocando las dependencias en el gradle
+  - Colocando en el manifiesto android
+     <uses-permission android:name="android.permission.INTERNET" />
+  - Sincronizar las dependencias
+  - Creando la interface APIService.java
+
+4.- (s5RestClient)
+   ===================
+   - Crear clase RestClien
+
+5.- (s5MainActivity)
+    ===================
+   - Implementacion de registroTvShows
+   - Implementacion de ListarTvShows
+
+6.- (s6MainActivity1)
+    ===================
+   - Implementacion de MainActivity
+    
+
