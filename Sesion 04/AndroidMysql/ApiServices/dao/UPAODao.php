@@ -49,7 +49,7 @@ order by m.dtt_movifecha desc ";
         }
         return $lista;
     }
-}
+
 
 //// Metodo Login 
 
