@@ -106,16 +106,18 @@ Esta aplicacion utilizar retrofit para consumir un API Rest el cual esta hecho e
 
 1.- (master)
 
- ===================
+  ===================
   - Clonar el repositorio https://github.com/gitHAMP/Curso-Android.git
   - Crear Fragment RegistroTvshow, ListarTvshows
   - Crear los layout activity_registro_tvshow,fragment-item_grid y fragment_item_list
 
 2.- (s5models)
- ===================
+
+   ===================
   - Creando modelo Tvshow.java
 
 3.- (s5InterfaceAPIService)
+
     ===================
   - Colocando las dependencias en el gradle
   - Colocando en el manifiesto android
@@ -124,15 +126,18 @@ Esta aplicacion utilizar retrofit para consumir un API Rest el cual esta hecho e
   - Creando la interface APIService.java
 
 4.- (s5RestClient)
+
    ===================
    - Crear clase RestClien
 
 5.- (s5MainActivity)
+
     ===================
    - Implementacion de registroTvShows
    - Implementacion de ListarTvShows
 
 6.- (s6MainActivity1)
+
     ===================
    - Implementacion de MainActivity
     
