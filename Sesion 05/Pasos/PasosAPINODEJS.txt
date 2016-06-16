@@ -1,0 +1,24 @@
+Henry Mendoza Puerta
+=====================
+API REST NODEJS
+1.- (master)
+
+  - Clonar el repositorio https://github.com/gitHAMP/curso-nodejs.git
+  - Ejecutar npm install para instalar dependencias
+
+2.- (s5models)
+  - Creando modelo tvshow.js
+  - Creando app.js servidor con express
+
+3.- (s5controllers1)
+  - Creando metodos GET y POST en tvshows.js
+  - Estableciendo conexion a base de datos MongoDB en app.js
+  - Importando el modelo y controlador en app.js
+  - Creando rutas de GET y POS en app.js
+  - Probar API REST en RestConsole.
+
+4.- (s5controllers2)
+   - Creando metodos GET por Id, PUT y DEL en tvshows.js
+   - Creando rutas de GET por Id, PUT y DEL en app.js
+   - probar API REST en RestConsole.
+  
