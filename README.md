@@ -10,26 +10,10 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
     =======================
     git clone https://github.com/gitHAMP/Curso-Android.git
 
-2.- (s4procdetreti)
+2.- Debes seguir los pasos que se encuentran en el repositorio de APIServicePHP, para crear 
+    la APIService con la cual se conectara AppUPAOBank.
     
-    =======================
-    Crear los procedimientos almacenados
-    de deposito y retiro
-
-3.- (s4upaodaophp)
-    
-    =======================
-    Implementacion de metodos de UPAODao.php
-    -login
-    -deposito
-    -retiro
-
-4.- (s4servicephp)
-    
-    =======================
-    Implementacion de metodos login, deposito y retiro.
-
-5.- (s4disenoactivity)
+3.- branch: s4disenoactivity
 
     Login
     ======
@@ -56,7 +40,7 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
     ==========
     Layout: Agregar TextView cliente, cuenta y saldo
 
-6.- (s4javaactivitys)
+4.- branch: s4javaactivitys
 
     Util
     =====
@@ -74,7 +58,7 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
 
     Implementacion de metodos onClickRetiro y onClickDeposito
 
-7.- (s4javadepositoretiro)
+5.- branch: s4javadepositoretiro
 
     DepositoActivity
     =================
@@ -84,7 +68,7 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
     ==============
     Implementacion de metodos onClickIngresar y onCLickRetornar
 
-8.- (s4javamovimientos)
+6.- branch: s4javamovimientos
 
     MovimientosActivity
     ===================
@@ -93,7 +77,7 @@ Aplicacion AppUPAOBANK, este proyecto te permite realizar lo siguiente:
     tvcuenta.setText("Cuenta: " + etCuenta.getText());
     tvsaldo.setText("Saldo: "+e.getString(TAG_SALDO));
 
-9.- Desafio APPUPAOBANK
+7.- Desafio APPUPAOBANK
 - Implementar registrar cliente.
 - Implementar registrar sucursal 
 
@@ -104,19 +88,22 @@ Esta aplicacion utilizar retrofit para consumir un API Rest el cual esta hecho e
 - Registro de TvShows
 - Lista de TvShows
 
-1.- (master)
+1.- branch: master
 
-  ===================
+      ===================
   - Clonar el repositorio https://github.com/gitHAMP/Curso-Android.git
   - Crear Fragment RegistroTvshow, ListarTvshows
   - Crear los layout activity_registro_tvshow,fragment-item_grid y fragment_item_list
 
-2.- (s5models)
+2.- Debes seguir los pasos que se encuentran en el repositorio de Curso-Node, para crear 
+    la APREST con la cual se conectara AppTvShow
+    
+3.- branch: s5models
 
-   ===================
+    ===================
   - Creando modelo Tvshow.java
 
-3.- (s5InterfaceAPIService)
+4.- branch: s5InterfaceAPIService
 
     ===================
   - Colocando las dependencias en el gradle
@@ -125,18 +112,18 @@ Esta aplicacion utilizar retrofit para consumir un API Rest el cual esta hecho e
   - Sincronizar las dependencias
   - Creando la interface APIService.java
 
-4.- (s5RestClient)
+5.- branch: s5RestClient
 
-   ===================
+    ===================
    - Crear clase RestClien
 
-5.- (s5MainActivity)
+6.- branch: s5MainActivity
 
     ===================
    - Implementacion de registroTvShows
    - Implementacion de ListarTvShows
 
-6.- (s6MainActivity1)
+7.- branch: s6MainActivity1
 
     ===================
    - Implementacion de MainActivity
