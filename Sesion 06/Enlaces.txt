@@ -1,0 +1,12 @@
+Primeros Pasos
+https://developers.facebook.com/docs/android/getting-started
+
+Inicio Sesion
+https://developers.facebook.com/docs/facebook-login/android
+
+Compartir en Android
+https://developers.facebook.com/docs/sharing/android
+
+
+Drivers segun dispositivo fisico
+https://developer.android.com/studio/run/oem-usb.html
