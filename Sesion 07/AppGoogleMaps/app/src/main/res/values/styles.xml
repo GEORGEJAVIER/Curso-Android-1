@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="SeleccionAzul" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#9FA8DA</item>
+    </style>
+
 </resources>

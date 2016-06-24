@@ -3,3 +3,16 @@
 SHA1:8A:D9:FD:91:1D:F2:95:79:71:15:39:98:65:E3:D9:50:91:20:A1:95
 
 API KEY: AIzaSyCILilatSY2GHqNfk2bGk1no9WHJ0fTqq8
+
+2.- branch: s7ControlerUI
+ - Agregar Fragmento FirstMapFragment
+ - SamplesAdapter donde se coloque las opciones de menu.
+ - Modificar MapsActivity para  inflater frgamento
+   mediante SampleAdater y mostrar menu de opciones
+ - Agregar las actividades de google
+   FirtsMapActivity
+   ControlsActivity
+ - Ademas modificar el String colocando
+   valores que se utilizaran en cada activity
+   
+
