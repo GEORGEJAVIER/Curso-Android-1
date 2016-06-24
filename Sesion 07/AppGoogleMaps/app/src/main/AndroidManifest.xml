@@ -44,6 +44,12 @@
         <activity
             android:name=".ControlsActivity"
             android:label="@string/title_activity_controls" />
+        <activity
+            android:name=".MarkersActivity"
+            android:label="@string/title_activity_marcadores" />
+        <activity
+            android:name=".MarkerDetailActivity"
+            android:label="@string/title_activity_marker_detail" />
     </application>
 
 </manifest>

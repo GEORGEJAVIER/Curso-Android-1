@@ -9,7 +9,8 @@ public class MapsActivity extends AppCompatActivity implements SamplesAdapter.On
 
     public final static Class[] options = {
             FirstMapActivity.class,
-            ControlsActivity.class
+            ControlsActivity.class,
+            MarkersActivity.class
     };
 
     private SamplesAdapter mAdapter;

@@ -64,6 +64,7 @@ public class SamplesAdapter extends RecyclerView.Adapter<SamplesAdapter.ViewHold
 
     public static String[] ITEMS = {
             "1. Mapa básico",
-            "2. Controles"
+            "2. Controles",
+            "3. Marcadores",
     };
 }

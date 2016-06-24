@@ -14,5 +14,12 @@ API KEY: AIzaSyCILilatSY2GHqNfk2bGk1no9WHJ0fTqq8
    ControlsActivity
  - Ademas modificar el String colocando
    valores que se utilizaran en cada activity
+
+3.- branch: s7Markers
+  - Agregar un marker
+  - Personalizar un marker
+  - Manejar Eventos De Markers
+    
+
    
 
