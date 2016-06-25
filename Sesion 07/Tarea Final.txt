@@ -1,0 +1,11 @@
+Tarea Final
+===========
+Implementar un servicio web que pemita 
+ * Registrar datos de un cliente
+ * Consultar datos de un cliente
+
+Implementar un app android que permita
+ * Registrar datos de un cliente: Activity 1
+ * Consultar datos de un cliente por dni: Activity 2
+
+Los pasos deben ser publicados en su github

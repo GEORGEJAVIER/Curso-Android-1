@@ -1,0 +1,7 @@
+https://www.adictosaltrabajo.com/tutoriales/qr-reader-android/
+http://www.hablemosdeandroid.com/p/como-hacer-un-lector-de-codigos-con.html
+http://www.tutorialspoint.com/android/android_camera.htm
+https://developer.android.com/guide/topics/media/camera.html
+http://www.hermosaprogramacion.com/2016/05/google-maps-android-api-v2/
+https://openwebinars.net/generar-apk-android-studio/
+https://openwebinars.net/como-publicar-app-Android-Play-Store/
