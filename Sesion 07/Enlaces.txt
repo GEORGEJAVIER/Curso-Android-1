@@ -5,3 +5,7 @@ https://developer.android.com/guide/topics/media/camera.html
 http://www.hermosaprogramacion.com/2016/05/google-maps-android-api-v2/
 https://openwebinars.net/generar-apk-android-studio/
 https://openwebinars.net/como-publicar-app-Android-Play-Store/
+
+
+http://www.mysamplecode.com/2012/09/android-generate-qr-code-using-zxing.html
+https://github.com/zxing/zxing
